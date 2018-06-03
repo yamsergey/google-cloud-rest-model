@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'ru.yamsergey.google.cloud.rest'
-version '0.1-SNAPSHOT'
+version 'v0.1.0-alpha1'
 
 sourceCompatibility = 1.7
 
