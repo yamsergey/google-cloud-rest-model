@@ -1,0 +1,23 @@
+plugins {
+  id 'java-library'
+  id 'java-library-distribution'
+}
+
+group 'ru.yamsergey.google.cloud.rest'
+version '0.1-SNAPSHOT'
+
+sourceCompatibility = 1.7
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  api project(":core")
+  api project(":image-annotation")
+  api project(":syntax")
+  api project(":translation")
+  implementation group: 'org.jetbrains', name: 'annotations', version: '16.0.2'
+
+  testImplementation group: 'junit', name: 'junit', version: '4.12'
+}

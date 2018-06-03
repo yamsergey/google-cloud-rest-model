@@ -1,0 +1,6 @@
+rootProject.name = 'model'
+include 'core'
+include 'image-annotation'
+include 'syntax'
+include 'translation'
+
